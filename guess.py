@@ -52,7 +52,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "登录窗口"))
-        self.label.setText(_translate("Form", "显示窗口"))
+        self.label.setText(_translate("Form", "规则：在6次中选中0至30的一个随机数"))
         self.label_2.setText(_translate("Form", "输入你要猜想的数字"))
         self.pushButton.setText(_translate("Form", "发 送"))
 
